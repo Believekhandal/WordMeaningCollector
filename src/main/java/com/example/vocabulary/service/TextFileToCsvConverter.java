@@ -27,13 +27,10 @@ public class TextFileToCsvConverter {
 	@Autowired
 	MeaningFinderApiCaller meaningFinderApiCaller;
 	
-	@Value("${filename.input}")
-	String inputfilepath;
-	@Value("${filename.output}")
-	String outputfilepath;
+
 
 	@Async
-	public void getMeaningFile() {
+	public void getMeaningFile(String inputfilepath, String outputfilepath) {
 
 		HashSet<String> listOfLines = new HashSet<>();
 		Path path = Paths.get(inputfilepath);
