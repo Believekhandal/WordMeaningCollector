@@ -14,10 +14,15 @@ public class MeaningFinderApiCaller {
 	public String findMeaning(String word) {
 		String meaningOfWord = "NA";
 		try {
-			meaningOfWord = wordMeaningFinderService.callDictionaryApi(word).getBody().toString();
-			log.info("meaningOfWord: "+meaningOfWord);
+			var response = wordMeaningFinderService.callDictionaryApi(word);
+			if (response.getBody() != null) {
+				meaningOfWord = response.getBody().toString();
+				log.info("meaningOfWord: "+meaningOfWord);
+			} else {
+				log.warn("No meaning found for word: {}", word);
+			}
 		} catch (Exception e) {
-			log.error("Exception occurred while getting meaning of word: "+ word);
+			log.error("Exception occurred while getting meaning of word: {}", word, e);
 		}
 		return meaningOfWord;
 	}

@@ -1,100 +1,143 @@
-Signals
-...
-LEIL LOWNDES
-nibbles,
-nukes
-ntbulous
-vague
-fuzzy
-course-solely
-prospectjve
-astounded
-entanglements,
-virtuoso
-maestro
-"exasperating,
-infuri­
-,
-n~."
-consensus.
-reared
-ivory
-proclamation
-entific
-flummoxed
-squeal
-enticing
-cue
-fluttering
-bait
-contrived
-sequestered.
-furtive
-nres.
-frowns
-yanked
-oblivious
-huddle
-bawling
-compadres.
-callous?
-plumage
-ramparts
-hither"
-oblivious
-eXQuisitely
-unraveling
-spewing
-ranting
-sp«ulations
-catapulted
-reluctantly
-frivolous
-Proxmire
-drew
-~rplexing
-fraught
-anguish
-exuding
-suspicion
-stunner,
-invasion
-horrendous
-panned
-applauded
-su bUminal
-comprehension
-exude.
-plethora
-perched
-~"~ortmenl
-scrupulous
-soared
-slithering
-swirling
-entice
-inadvertent
-contrived,
-heed
-Infatuation
-prevalence
-bewildered:'
-conjecture.
-pudgy.
-bestow
-lax
-peering
-rebuff
-primping
-twitching
-endeavor
-crib
-scrunches
-potent
-subliminal
-contrived)
-primping
-duul
-squiggle
-exasperated
-intoxicated.
+
+
+WikipediaThe Free Encyclopedia
+Search Wikipedia
+Search
+Donate
+Create account
+Log in
+Contents hide
+(Top)
+Features and performance
+Viteconf
+See also
+References
+External links
+Vite (software)
+
+Article
+Talk
+Read
+Edit
+View history
+
+Tools
+Appearance hide
+Text
+
+Small
+
+Standard
+
+Large
+Width
+
+Standard
+
+Wide
+Color (beta)
+
+Automatic
+
+Light
+
+Dark
+From Wikipedia, the free encyclopedia
+icon
+This article needs additional citations for verification. Please help improve this article by adding citations to reliable sources. Unsourced material may be challenged and removed.
+Find sources: "Vite" software – news · newspapers · books · scholar · JSTOR (November 2023) (Learn how and when to remove this message)
+Vite
+
+Original author	Evan You
+Developer	VoidZero Inc
+Initial release	20 April 2020; 5 years ago
+Stable release	
+7.3.0[1] Edit this on Wikidata / 15 December 2025; 19 days ago
+Repository	github.com/vitejs/vite
+Written in	TypeScript
+Platform	Node.js, Deno, Bun
+Available in	English
+Docs in English, Chinese, Japanese and Spanish
+Type	Development server
+License	MIT License
+Website	vite.dev Edit this at Wikidata
+Vite (French: [vit], like "veet") is a local development server backed by VoidZero Inc.[2] Vite was written by Evan You, the creator of Vue.js. It has support for TypeScript and JSX. It uses Rollup [Wikidata] and esbuild internally for bundling.[3]
+
+Vite monitors files as they are being edited and upon file save the web browser reloads the code being edited through a process called Hot Module Replacement (HMR)[4] which works by just reloading the specific file being changed using ES6 modules (ESM) instead of recompiling the entire application.
+
+Vite provides built-in support for server-side rendering (SSR). By default, it listens on TCP port 5173.[5] It is possible to configure Vite to serve content over HTTPS and proxy requests (including WebSocket) to a back-end web server, such as Apache HTTP Server or lighttpd.
+
+Features and performance
+Vite has a Hot Module Replacement (HMR) system, which reduces wait times during development. Vite supports frameworks such as React, Vue, and Svelte, and has server-side rendering (SSR), code-splitting, and asynchronous loading.
+
+Viteconf
+Viteconf is an event that hosts talks about frontend tooling.[6] The conventions in 2022,[7][6] 2023,[8] and 2024,[9] were held online. In October 2025, the first in-person Viteconf was held in Amsterdam.[10][11]
+
+See also
+	Free and open-source software portal
+Bun
+Deno
+Vue
+References
+ "Release 7.3.0". 15 December 2025. Retrieved 16 December 2025.
+ "Announcing VoidZero - Next Generation Toolchain for JavaScript". void(0). Retrieved 2025-06-15.
+ "Why Vite". vite.dev.
+ "Educative Answers - Trusted Answers to Developer Questions". Educative. Retrieved 10 November 2023.
+ 5 (Roman numeral Ⅴ) + 1 (Roman numeral Ⅰ) + 7 (Leet for T) + 3 (Leet for E)
+ East, David (30 Aug 2022). "Come join us at ViteConf 2022!". The Firebase Blog. Retrieved 24 September 2025.
+ "ViteConf is back!". blog.stackblitz.com. 10 August 2023. Retrieved 24 September 2025.
+ "Astro @ ViteConf 2023". Astro. 2 October 2023. Retrieved 24 September 2025.
+ "ViteConf 2024 was a blast". blog.stackblitz.com. 22 October 2024. Retrieved 24 September 2025.
+ "ViteConf". viteconf.amsterdam. Retrieved 2025-12-29.
+ "Big Announcement: The First In-Person ViteConf 2025 in Amsterdam! - Vue School Articles - Vue School". vueschool.io. Retrieved 24 September 2025.
+External links
+Official website Edit this at Wikidata
+vite on GitHub
+Vite on npm
+Vite: The Documentary (by CultRepo) on YouTube
+vte
+JavaScript
+Code analysis	
+ESLintJSHintJSLint
+Subsets,* supersets	
+Source*ArkTSJS++TypeScript
+Transpilers	
+AtScriptBabelClojureScriptCoffeeScriptDartElmEmscriptenGoogle Closure CompilerGoogle Web ToolkitHaxeLiveScriptMorfikNimOpaPureScriptReScriptWebSharper
+Concepts	
+JavaScript libraryJavaScript syntaxJavaScript stack
+Debuggers	
+Chrome DevToolsFirefox Inspector (formerly Firebug)Komodo IDESafari Web Inspector
+Documentation generators	
+JSDoc
+Editors (comparison)	
+Ace Cloud9 IDEAtomCodeMirror BracketsLight TablePhpStormOrionVisual Studio Visual Studio ExpressVisual Studio CodeVisual Studio Team ServicesVim
+Engines	
+List of JavaScript engines
+Frameworks	
+Comparison of JavaScript frameworksList of JavaScript libraries
+Related technologies	
+AjaxAssemblyScriptasm.jsCascading Style SheetsDocument Object ModelHTML HTML5JSONWebAssemblyWebAuthn
+Package managers	
+npmpnpmyarnBun
+Module bundlers	
+BunesbuildViteWebpack
+Server-side	
+Active Server PagesBunCommonJSDenoJSGINode.js
+Unit testing frameworks (list)	
+JasmineMochaQUnit
+People	
+Douglas CrockfordRyan DahlBrendan EichJohn ResigJesse James Garrett
+
+
+Stub icon	
+This programming-tool-related article is a stub. You can help Wikipedia by expanding it.
+
+Stub icon	
+This free and open-source software article is a stub. You can help Wikipedia by expanding it.
+
+Categories: 2020 softwareSoftware using the MIT licenseFree software programmed in TypeScriptComputer programming tool stubsFree and open-source software stubs
+This page was last edited on 29 December 2025, at 20:04 (UTC).
+Text is available under the Creative Commons Attribution-ShareAlike 4.0 License; additional terms may apply. By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+Privacy policyAbout WikipediaDisclaimersContact WikipediaLegal & safety contactsCode of ConductDevelopersStatisticsCookie statementMobile view
+Wikimedia Foundation
+Powered by MediaWiki

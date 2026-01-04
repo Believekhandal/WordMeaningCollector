@@ -1,13 +1,13 @@
 mvnw
 mvnw.cmd
 
-
 HELP.md
 target/
 .mvn/wrapper/maven-wrapper.jar
 **/src/main/**/target/
 !**/src/test/**/target/
 *.mvn
+
 ### STS ###
 .apt_generated
 .classpath
@@ -35,3 +35,28 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### Node.js ###
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+### Frontend Build ###
+frontend/dist/
+frontend/build/
+
+### Generated Files ###
+**/src/main/resources/subtitlesVocab.csv
+*.tmp
+*.log
+test_*.txt
+
+### OS Generated ###
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
